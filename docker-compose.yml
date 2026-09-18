@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_PATH: /data/wakegap.db
+    volumes:
+      - wakegap-data:/data
+    restart: unless-stopped
+
+volumes:
+  wakegap-data:

@@ -1,0 +1,20 @@
+{
+  "name": "早高峰离场示例",
+  "separation_matrix": {
+    "HEAVY":  {"HEAVY": 96,  "MEDIUM": 120, "LIGHT": 180},
+    "MEDIUM": {"HEAVY": 60,  "MEDIUM": 60,  "LIGHT": 120},
+    "LIGHT":  {"HEAVY": 60,  "MEDIUM": 60,  "LIGHT": 60}
+  },
+  "runways": {
+    "18L": [
+      {"flight_no": "CA101", "sched_time": "2026-09-18T08:00:00Z", "wake_category": "HEAVY"},
+      {"flight_no": "MU202", "sched_time": "2026-09-18T08:01:00Z", "wake_category": "MEDIUM"},
+      {"flight_no": "CZ303", "sched_time": "2026-09-18T08:02:00Z", "wake_category": "LIGHT"},
+      {"flight_no": "ZH404", "sched_time": "2026-09-18T08:02:00Z", "wake_category": "HEAVY"}
+    ],
+    "18R": [
+      {"flight_no": "FM505", "sched_time": "2026-09-18T08:00:30Z", "wake_category": "MEDIUM"},
+      {"flight_no": "HO606", "sched_time": "2026-09-18T08:02:30Z", "wake_category": "HEAVY"}
+    ]
+  }
+}
